@@ -16,7 +16,6 @@ extern "C"
 	void objectsCosmicWall();
 	void objectsMetalHarbor();
 	void objectsMisc();
-	void butt();
 	__declspec(dllexport) ModInfo SA2ModInfo = { ModLoaderVer };
 	__declspec(dllexport) void _cdecl Init(const char* path, const HelperFunctions& helperFunctions)
 	{
